@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio website</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Google fonts -->
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+    </style>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+    </style>
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/69a68af85c.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Navigation bar -->
+    <header>
+      <div class="logo">
+        <h1><a href="#home">Portfolio</a></h1>
+      </div>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+          <li class="nav__item">
+            <a href="#services" class="nav__link">My Service</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About me</a>
+          </li>
+          <li class="nav__item">
+            <a href="#work" class="nav__link">My work</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro" id="home">
+      <h1 class="section__title section__title--intro">
+        Hello, my name is <strong>Maria</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">
+        front end developer
+      </p>
+      <img src="img/img-1.jpg" alt="" class="intro__img" />
+    </section>
+
+    <!-- My services -->
+    <section class="my-services" id="services">
+      <h2 class="section__title section__title--services">Services</h2>
+      <div class="services">
+        <!-- service 1 -->
+        <div class="service">
+          <h3>Websites</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
+            ullam veritatis eos? Commodi, dicta excepturi.
+          </p>
+        </div>
+        <!-- service 2 -->
+        <div class="service">
+          <h3>Games</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
+            accusamus fuga totam libero tempore optio.
+          </p>
+        </div>
+        <!-- service 3 -->
+        <div class="service">
+          <h3>E-commerce</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
+            fuga nam voluptatum, quidem consequatur repudiandae.
+          </p>
+        </div>
+      </div>
+
+      <a href="" class="btn">My work</a>
+    </section>
+
+    <!-- About me -->
+    <section class="about-me" id="about">
+      <h2 class="section__title section__title--about">About me</h2>
+      <p class="section__subtitle section-subtitle--about">
+        Frontend Developer
+      </p>
+      <div class="about-me__body">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
+          excepturi dicta nemo, cupiditate distinctio expedita natus vitae
+          pariatur laborum. Laudantium vitae autem fugit distinctio illo, illum
+          fuga consectetur sed sint.
+        </p>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde ducimus
+          laborum illum, impedit placeat totam eligendi error laudantium natus.
+          Atque veritatis natus numquam similique quam unde magni provident
+          sapiente. Quos?
+        </p>
+      </div>
+      <img src="img/img-2.jpg" alt="" class="about-me__img" />
+    </section>
+
+    <!-- My Work -->
+    <section class="my-work" id="work">
+      <h2 class="section__title">Projects</h2>
+      <p class="section__subtitle section__subtitle--work">
+        A selection of my range of work
+      </p>
+
+      <div class="portfolio">
+        <!-- Item 1 -->
+        <a href="#" class="portfolio__item">
+          <img src="img/portfolio.jpg" alt="" class="portfolio__img" />
+        </a>
+        <!-- Item 2 -->
+        <a href="#" class="portfolio__item">
+          <img src="img/portfolio.jpg" alt="" class="portfolio__img" />
+        </a>
+        <!-- Item 3 -->
+        <a href="#" class="portfolio__item">
+          <img src="img/portfolio.jpg" alt="" class="portfolio__img" />
+        </a>
+        <!-- Item 4 -->
+        <a href="#" class="portfolio__item">
+          <img src="img/portfolio.jpg" alt="" class="portfolio__img" />
+        </a>
+        <!-- Item 5 -->
+        <a href="#" class="portfolio__item">
+          <img src="img/portfolio.jpg" alt="" class="portfolio__img" />
+        </a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <a href="" class="footer__link">maria@gmail.com</a>
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a class="social-list__link" href=""
+            ><i class="fa fa-linkedin" aria-hidden="true"></i
+          ></a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href=""
+            ><i class="fa fa-instagram" aria-hidden="true"></i
+          ></a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href=""
+            ><i class="fa fa-github" aria-hidden="true"></i
+          ></a>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
